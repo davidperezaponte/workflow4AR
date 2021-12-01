@@ -8,14 +8,15 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
 
-    public void verFlujos(View view){
-        Intent i = new Intent(this,verFlujoTrabajo.class);
+    public void listarFlujos(View view){
+        Intent i = new Intent(this,ListaFlujosTrabajo.class);
         startActivity(i);
     }
 }

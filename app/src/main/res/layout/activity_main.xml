@@ -39,7 +39,7 @@
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="327dp"
         android:backgroundTint="#0d6bb3"
-        android:onClick="verFlujos"
+        android:onClick="listarFlujos"
         android:text="VER FLUJOS DE TRABAJO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
