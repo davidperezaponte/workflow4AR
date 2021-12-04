@@ -2,4 +2,9 @@
     <string name="app_name">workflow4AR</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_titulo">Titulo:</string>
+    <string name="btn_registrar">Registar</string>
+    <string name="menu_crearFlujo">Crear flujos de trabajo</string>
+    <string name="menu_verFlujo">Ver flujo de trabajo</string>
+    VER FLUJOS DE TRABAJO
 </resources>

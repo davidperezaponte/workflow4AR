@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Workflow4AR">
         <activity
+            android:name=".CrearFlujosTrabajo"
+            android:exported="false" />
+        <activity
             android:name=".ListaFlujosTrabajo"
             android:exported="false" />
         <activity

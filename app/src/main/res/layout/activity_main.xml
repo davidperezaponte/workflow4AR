@@ -8,41 +8,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="75dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCrear"
+        android:layout_width="412dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/kinnesis" />
 
-    <Button
-        android:id="@+id/btnCrear"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="78dp"
-        android:backgroundTint="#0d6bb3"
-        android:text="Crear flujos de Trabajo"
-        app:layout_constraintBottom_toTopOf="@+id/btnVer"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <Button
-        android:id="@+id/btnVer"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="327dp"
-        android:backgroundTint="#0d6bb3"
-        android:onClick="listarFlujos"
-        android:text="VER FLUJOS DE TRABAJO"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnCrear" />
 </androidx.constraintlayout.widget.ConstraintLayout>
